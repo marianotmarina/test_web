@@ -1,0 +1,62 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+.psy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.psy_items psy_items-all {
+margin-right: 10px;
+position: fixed;
+top: 50px;
+display: block;
+width: 30px;
+height: 30px;
+overflow: hidden;
+border-radius: 50%;
+}
+.fake {
+    position:relative;
+    width: 275px;
+    height: 275px;
+    background-color: rgb(205, 231, 222);
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid rgb(140, 145, 240);
+    margin: auto;
+}
+.fake_badge {
+    position:absolute;
+    top: calc(-40px / 2);
+    right: calc(-40 / 2);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: rgb(85, 42, 165);
+    z-index: 4;
+}
+.fake_img {
+    position: inherit;
+    width: 275px;
+    height: 275px;
+    z-index: 3;
+    margin: auto;
+}
+.psy_items-all {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Psi2.svg/274px-Psi2.svg.png) 
+    no-repeat top center/cover;
+    width: 30px;
+    height: 30px;
+}
+.psy_link {
+    opacity: 0;
+}
+h1 {
+    color: rgb(72, 9, 88);
+    text-align: center;
+}
